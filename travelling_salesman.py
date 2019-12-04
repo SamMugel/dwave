@@ -93,9 +93,3 @@ print("Mileage: ", mileage_KS)
 end = time.time()
 print("Total processing time: ", end - start)
 
-print("\nRoute:\n")
-for i in range(N):
-    if route[i] != -1:
-        print(str(i) + ":  " + cities[route[i]] + "," + states[route[i]] + "\n")
-    else:
-        print(str(i) + ":  No city assigned.\n")
